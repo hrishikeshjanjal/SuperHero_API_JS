@@ -1,0 +1,47 @@
+#fav-hero-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(#c10cc7,#c2441d);
+    padding: 15px;
+}
+
+.favImage{
+    width: 200px;
+    height: 200px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    width: 19rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#fav-hero-container div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#fav-hero-container div button{
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#fav-hero-container div button:hover{
+    box-shadow: blue 0px 0px 5px 5px;
+}
+
+div a{
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    width: 11.5rem;
+    margin: 0 auto;
+}
